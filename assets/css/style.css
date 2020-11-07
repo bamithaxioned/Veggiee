@@ -445,6 +445,48 @@ nav {
   special styling ends here
   =================================*/
 /*=================================
+  about styling starts here
+=================================*/
+.about {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: url(../images/header.jpg) no-repeat center/cover;
+  display: flex;
+  align-items: center;
+}
+.about-content {
+  width: 50%;
+  height: 600px;
+  padding: 20px 10px;
+}
+.about-content .third-heading {
+  margin: 10px 0 90px;
+}
+.about-content .third-heading::after {
+  width: 45%;
+  bottom: -23px;
+}
+.about-content p {
+  font-size: 29px;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 500;
+  color: #767676;
+}
+.about-content img {
+  width: 242px;
+  height: 149px;
+  float: right;
+  clear: both;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+/*=================================
+  about styling ends here
+=================================*/
+/*=================================
   main styling ends here
 =================================*/
 
