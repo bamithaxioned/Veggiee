@@ -199,6 +199,10 @@ li {
   width: 90%;
   margin: 0 auto;
 }
+/* CSS reset  */
+* {
+  box-sizing: border-box;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -220,7 +224,7 @@ nav {
   color: #838486;
   border: 1px solid transparent;
   padding: 5.5px 11px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .nav-links:hover {
   border-color: #0e0e0e;
@@ -266,11 +270,11 @@ nav {
   padding: 5px;
   border: 2px solid #fff;
   border-radius: 50%;
-  transition: .4s;
+  transition: 0.4s;
 }
 .down-arrow img {
   float: right;
-  transform: scale(.7);
+  transform: scale(0.7);
   filter: invert(1);
 }
 /*=================================
@@ -306,18 +310,18 @@ nav {
   padding: 40px 10px;
   box-sizing: border-box;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
-.todays-special li:hover{
-  transform:scale(1.04);
+.todays-special li:hover {
+  transform: scale(1.04);
   box-shadow: 0 0 10px #000;
   border-radius: 10px;
   cursor: pointer;
 }
-.todays-special li:hover h2{
+.todays-special li:hover h2 {
   color: #338053;
 }
-.todays-special li:hover p{
+.todays-special li:hover p {
   color: #000;
   text-shadow: 0 0 2px #000;
 }
@@ -327,23 +331,119 @@ nav {
 }
 .todays-special img {
   height: 100%;
-  filter: opacity(.7);
+  filter: opacity(0.7);
 }
 .todays-special h2 {
   font-size: 20px;
   margin: 14px 0;
   text-transform: uppercase;
-  color: #3C3C3C;
+  color: #3c3c3c;
   font-weight: 500;
 }
-.todays-special p{
+.todays-special p {
   font-size: 14px;
-  color: #3C3C3C;
+  color: #3c3c3c;
   letter-spacing: 1px;
 }
 /*=================================
   todays-special styling ends here
 =================================*/
+/*=================================
+  special styling starts here
+  =================================*/
+.special {
+  padding: 60px 0 176px;
+}
+.third-heading {
+  position: relative;
+  color: #767582;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.third-heading::after {
+  content: "";
+  background: url(../images/line.png) no-repeat center/cover;
+  width: 20%;
+  height: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.special .special-content {
+  width: 100%;
+  margin-top: 88px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.special .special-image-box {
+  position: relative;
+  width: 16.666%;
+  height: 190px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.special figure {
+  height: 100%;
+}
+.special img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.special .special-image-box:hover img {
+  transform: rotate(20deg) scale(1.4);
+  opacity: 0.2;
+}
+.special .special-image-box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  display: none;
+}
+.special .special-image-box:hover .content {
+  display: block;
+}
+.special h4 {
+  position: relative;
+  color: #666666;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.special h4::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: #666666;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.special p {
+  color: #7f8294;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 23px 0 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.special span {
+  color: #8c7f81;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/*=================================
+  special styling ends here
+  =================================*/
 /*=================================
   main styling ends here
 =================================*/
