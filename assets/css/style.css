@@ -487,6 +487,68 @@ nav {
   about styling ends here
 =================================*/
 /*=================================
+  Menu styling starts here
+=================================*/
+.menu {
+  padding: 65px 0 10px;
+}
+.menu .third-heading {
+  margin-bottom: 83px;
+}
+.menu .third-heading::after {
+  bottom: -25px;
+}
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-bar a {
+  padding: 5px 13px;
+  color: #514c4f;
+  font-size: 16px;
+  border-left: 5px solid transparent;
+  transition: 0.5s;
+}
+.menu-bar a:hover {
+  background: #53ffc1;
+  color: #000;
+  border-color: rgb(255, 0, 0);
+  transform: translateY(-10px) rotate(-5deg);
+}
+.menu-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  padding: 5px;
+}
+
+.menu-list li {
+  width: 48%;
+  color: #757678;
+  margin-bottom: 40px;
+}
+.menu-list h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.menu-list span {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 10px;
+}
+.menu-list .dot {
+  font-size: 19px;
+}
+/*=================================
+  Menu styling ends here
+=================================*/
+
+/*=================================
   main styling ends here
 =================================*/
 
