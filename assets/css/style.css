@@ -224,7 +224,7 @@ nav {
   color: #838486;
   border: 1px solid transparent;
   padding: 5.5px 11px;
-  transition: 0.3s;
+  transition: .3s;
 }
 .nav-links:hover {
   border-color: #0e0e0e;
@@ -270,11 +270,11 @@ nav {
   padding: 5px;
   border: 2px solid #fff;
   border-radius: 50%;
-  transition: 0.4s;
+  transition: .4s;
 }
 .down-arrow img {
   float: right;
-  transform: scale(0.7);
+  transform: scale(.7);
   filter: invert(1);
 }
 /*=================================
@@ -310,7 +310,7 @@ nav {
   padding: 40px 10px;
   box-sizing: border-box;
   text-align: center;
-  transition: 0.5s;
+  transition: .5s;
 }
 .todays-special li:hover {
   transform: scale(1.04);
@@ -331,7 +331,7 @@ nav {
 }
 .todays-special img {
   height: 100%;
-  filter: opacity(0.7);
+  filter: opacity(.7);
 }
 .todays-special h2 {
   font-size: 20px;
@@ -391,11 +391,11 @@ nav {
 .special img {
   height: 100%;
   object-fit: cover;
-  transition: 0.5s;
+  transition: .5s;
 }
 .special .special-image-box:hover img {
   transform: rotate(20deg) scale(1.4);
-  opacity: 0.2;
+  opacity: .2;
 }
 .special .special-image-box .content {
   position: absolute;
@@ -508,7 +508,7 @@ nav {
   color: #514c4f;
   font-size: 16px;
   border-left: 5px solid transparent;
-  transition: 0.5s;
+  transition: .5s;
 }
 .menu-bar a:hover {
   background: #53ffc1;
@@ -635,6 +635,12 @@ input[type="submit"] {
   border: 1.3px solid #000;
   font-weight: 500;
   color: #111111;
+  transition: .5s;
+}
+input[type="submit"]:hover{
+  color:crimson;
+  background-color: #aacf54;
+  box-shadow: 0 0 5px #fff;
 }
 textarea {
   width: 100%;
@@ -665,7 +671,7 @@ textarea {
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 300;
-  color: #1F8002;
+  color: #1F8002; 
 }
 .social-icons a{
   width: 30px;
