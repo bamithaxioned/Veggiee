@@ -555,6 +555,133 @@ nav {
 /*=================================
   footer styling starts here
 =================================*/
+footer {
+  position: relative;
+  width: 100%;
+  height: 840px;
+  background: url(../images/4.jpg) no-repeat center/cover;
+  color: #5f6360;
+  padding-top: 53px;
+}
+.footer-top {
+  width: 45%;
+  height: 673px;
+  text-align: left;
+  margin-left: auto;
+}
+.footer-top .third-heading {
+  margin-bottom: 85px;
+  color: #767676;
+}
+.footer-top .third-heading::after {
+  width: 40%;
+  bottom: -26px;
+}
+.contact-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+address {
+  font-size: 15px;
+}
+.address-heading {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.reservations {
+  font-size: 15px;
+}
+.reservations .phone {
+  color: #5f6360;
+}
+h6 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+.form {
+  width: 100%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 40%;
+  color: #5f6360;
+  font-size: 17px;
+  padding: 8px 5px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #dddddd;
+  outline: none;
+  margin: 10px 0 5px;
+}
+input[type="text"] {
+  margin-right: 53px;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  display: block;
+  height: 50px;
+  width: 97px;
+  margin: 20px auto 0;
+  font-size: 17px;
+  background: none;
+  border: 1.3px solid #000;
+  font-weight: 500;
+  color: #111111;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+}
+.footer-bottom {
+  border-top: 1px solid #dddddd;
+  width: 100%;
+  height: 113px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom img {
+  width: 15px;
+  height: 15px;
+}
+.copyrights{
+  margin-left: 90px;
+}
+.copyrights span{
+  font-size: 16px;
+  font-weight: 300;
+}
+.copyrights h6 {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #1F8002;
+}
+.social-icons a{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #767676;
+  text-align: center;
+  color:#767676 ;
+  font-size: 20px;
+  text-indent: -999999px;
+}
+.social-icons .fa{
+  float: right; 
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
 /*=================================
   footer styling ends here
 =================================*/
